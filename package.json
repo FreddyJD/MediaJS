@@ -1,0 +1,30 @@
+{
+  "name": "socialmediajs",
+  "version": "1.0.0",
+  "description": "The eassiest way to grab info from the YouTube API , Instagram API and Twitter API",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyJD/SocialMediaJS.git"
+  },
+  "keywords": [
+    "Social",
+    "Media",
+    "API",
+    "YouTube",
+    "API",
+    "Twitter",
+    "API",
+    "Instagram",
+    "API"
+  ],
+  "author": "Freddyjd, dashinja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreddyJD/SocialMediaJS/issues"
+  },
+  "homepage": "https://github.com/FreddyJD/SocialMediaJS#readme"
+}
