@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/FreddyJD/SocialMediaJS/issues"
   },
-  "homepage": "https://github.com/FreddyJD/SocialMediaJS#readme"
+  "homepage": "https://github.com/FreddyJD/SocialMediaJS#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0"
+  }
 }
