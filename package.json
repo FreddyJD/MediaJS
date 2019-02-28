@@ -32,6 +32,7 @@
     "dotenv": "^6.2.0",
     "instagram-scraping": "^1.0.2",
     "instapro": "^2.0.3",
+    "open-graph-scraper": "^3.6.1",
     "simple-instagram-scraper": "^1.0.12"
   }
 }
