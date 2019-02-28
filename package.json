@@ -30,6 +30,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
+    "instagram-analytics": "^2.1.1",
     "instagram-scraping": "^1.0.2",
     "instapro": "^2.0.3",
     "simple-instagram-scraper": "^1.0.12"
