@@ -33,6 +33,10 @@
     "instagram-analytics": "^2.1.1",
     "instagram-scraping": "^1.0.2",
     "instapro": "^2.0.3",
-    "simple-instagram-scraper": "^1.0.12"
+    "python-shell": "^1.0.7",
+    "scrape-twitter": "^0.11.1",
+    "simple-instagram-scraper": "^1.0.12",
+    "tscraper": "^0.0.6",
+    "twitter-scrape-account-stats": "^0.2.1"
   }
 }
