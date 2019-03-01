@@ -29,11 +29,13 @@
   "homepage": "https://github.com/FreddyJD/SocialMediaJS#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "instagram-analytics": "^2.1.1",
     "instagram-scraping": "^1.0.2",
     "instapro": "^2.0.3",
+    "mongojs": "^2.6.0",
     "open-graph-scraper": "^3.6.1",
     "python-shell": "^1.0.7",
     "request": "^2.88.0",
