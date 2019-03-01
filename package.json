@@ -1,10 +1,10 @@
 {
   "name": "socialmediajs",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "The eassiest way to grab info from the YouTube API , Instagram API and Twitter API",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon _test.js"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,6 @@
   "homepage": "https://github.com/FreddyJD/SocialMediaJS#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "dotenv": "^6.2.0",
-    "instagram-scraping": "^1.0.2",
-    "instapro": "^2.0.3",
-    "simple-instagram-scraper": "^1.0.12"
+    "dotenv": "^6.2.0"
   }
 }
