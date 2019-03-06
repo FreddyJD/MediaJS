@@ -6,7 +6,7 @@ This is an NPM module that grabs data from different API's and make's it readebl
 Promise Example
 ```
 
-const { YouTube } = require("./app");
+const { YouTube } = require('socialmediajs');
 
 __Test__();
 
@@ -21,6 +21,7 @@ function __Test__() {
 
 Async/await Example
 ```
+const { YouTube } = require('socialmediajs');
 
 async function __test(channelID, apiKey) {
     const data = await YouTube(channelID, apiKey);
