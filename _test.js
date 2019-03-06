@@ -1,7 +1,7 @@
 const { YouTube, Twitch } = require('./app')
 
-// __Test__()
-__Test__Twitch("ybicanoooobov")
+// __Test__();
+// __Test__Twitch()
 
 function __Test__() {
   YouTube('UCBUVGPsJzc1U8SECMgBaMFw', 'YOUR_API_KEY').then(data => {
@@ -9,9 +9,10 @@ function __Test__() {
   })
 }
 
-async function __Test__Twitch(whatever) {
-  const data = await Twitch(whatever)
 
-  console.log('Twitch Data:')
-  return console.log("Data:",data)
+async function showMeTheMoney() {
+  const results = await Twitch("ybicanoooobov")
+  console.log(results)
 }
+
+showMeTheMoney()
