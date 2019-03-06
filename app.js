@@ -7,5 +7,5 @@ module.exports = {
   YouTube: async (channelID, key) => await YouTube(channelID, key, 5),
   // Instagram: async (instaId) => (await simpleInstagramScraper.getReport(instaId)),
 
-  Twitch: async (liveChannel, callback) => await Twitch(liveChannel, callback),
+  Twitch: async (liveChannel) => await Twitch(liveChannel),
 }
