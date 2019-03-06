@@ -1,8 +1,16 @@
-const YouTube = require('./lib/youtube');
+const YouTube = require('./lib/youtube')
 // const instagram = require('./lib/instagram');
-require('dotenv').config();
+const Twitch = require('./lib/twitchScrape')
+require('dotenv').config()
 
 module.exports = {
-  YouTube: async (channelID, key) => (await YouTube(channelID, key, 5)),
+  YouTube: async (channelID, key) => await YouTube(channelID, key, 5),
   // Instagram: async (instaId) => (await simpleInstagramScraper.getReport(instaId)),
-  }
+
+  Twitch: async (liveChannel) => await Twitch(liveChannel),
+}
+
+
+
+
+// batman
