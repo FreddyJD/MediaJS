@@ -42,7 +42,7 @@ __test('A CHANNEL ID', ' YOUR YOUTUBE API KEY');
 Promise Example
 
 ```
-const { Twitch } = require('./app')
+const { Twitch } = require('socialmediajs')
 
 function ybicaStats() {
 Twitch('ybicanoooobov').then((results) => {
@@ -56,7 +56,7 @@ ybicaStats()
 Async/Await Example
 
 ```
-const { Twitch } = require('./app'
+const { Twitch } = require('socialmediajs'
 
 async function ybicaStats() {
   const results = await Twitch('ybicanoooobov')
