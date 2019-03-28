@@ -1,6 +1,6 @@
 {
   "name": "socialmediajs",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "The eassiest way to grab info from the YouTube API and Twitch Tracker",
   "main": "app.js",
   "scripts": {
