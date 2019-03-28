@@ -33,3 +33,29 @@ __test('A CHANNEL ID', ' YOUR YOUTUBE API KEY');
 
 
 ```
+## Twitch Scrapper
+
+Promise Example
+```
+const { Twitch } = require('./app')
+
+function ybicaStats() {
+Twitch('ybicanoooobov').then((results) => {
+  console.log(results)
+})
+}
+
+ybicaStats()
+```
+
+Async/Await Example
+```
+const { Twitch } = require('./app'
+
+async function ybicaStats() {
+  const results = await Twitch('ybicanoooobov')
+  console.log(results)
+}
+
+ybicaStats()
+```
