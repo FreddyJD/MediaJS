@@ -1,9 +1,11 @@
 # Social Media JS
-This is an NPM module that grabs data from different API's and make's it readeble 
+
+This is an NPM module that grabs data from different API's and make's it readeble
 
 ## YouTube API
 
 Promise Example
+
 ```
 
 const { YouTube } = require('socialmediajs');
@@ -20,6 +22,7 @@ function __Test__() {
 ```
 
 Async/await Example
+
 ```
 const { YouTube } = require('socialmediajs');
 
@@ -27,15 +30,17 @@ async function __test(channelID, apiKey) {
     const data = await YouTube(channelID, apiKey);
     console.log(data)
     return data
-} 
+}
 
 __test('A CHANNEL ID', ' YOUR YOUTUBE API KEY');
 
 
 ```
+
 ## Twitch Scrapper
 
 Promise Example
+
 ```
 const { Twitch } = require('./app')
 
@@ -49,6 +54,7 @@ ybicaStats()
 ```
 
 Async/Await Example
+
 ```
 const { Twitch } = require('./app'
 
