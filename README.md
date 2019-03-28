@@ -56,7 +56,7 @@ ybicaStats()
 Async/Await Example
 
 ```
-const { Twitch } = require('socialmediajs'
+const { Twitch } = require('socialmediajs')
 
 async function ybicaStats() {
   const results = await Twitch('ybicanoooobov')
